@@ -1,0 +1,28 @@
+---
+layout: default
+title: Devlog
+description: Development log for Dear Z. — progress notes, clips and behind-the-scenes from an indie game in the making.
+permalink: /devlog/
+body_class: page devlog-page
+---
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Devlog</p>
+    <h1>Building Dear Z<span class="brand-dot">.</span></h1>
+    <p class="section-sub">Notes, clips and small victories from development — newest first. <a class="text-link" href="{{ '/devlog/feed.xml' | relative_url }}">Subscribe via RSS</a>.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="wrap">
+    {%- assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+    {%- for year in by_year -%}
+      <h2 class="year-head">{{ year.name }}</h2>
+      <div class="log-grid log-grid-wide">
+        {%- for post in year.items -%}
+          {% include post-card.html post=post %}
+        {%- endfor -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</section>

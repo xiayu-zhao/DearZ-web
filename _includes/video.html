@@ -1,0 +1,11 @@
+{%- comment -%}
+  Usage in a post:  {% include video.html src="/assets/video/clip.mp4" poster="/assets/video/clip.jpg" caption="..." %}
+  (Posts with `video:` in their front matter get this automatically at the top.)
+{%- endcomment -%}
+<figure class="media-video">
+  <video controls preload="none" playsinline{% if include.poster %} poster="{{ include.poster | relative_url }}"{% endif %}>
+    <source src="{{ include.src | relative_url }}" type="video/mp4">
+    Your browser can't play this video. <a href="{{ include.src | relative_url }}">Download it</a> instead.
+  </video>
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

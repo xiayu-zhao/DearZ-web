@@ -1,0 +1,95 @@
+# The journey, chapter by chapter.
+# - `art` / `art_full`: add paths once concept art exists; otherwise a placeholder tile is drawn.
+# - `status`: free-text chips shown under each chapter (e.g. "Concept art", "Script draft", "Playable").
+# - `stage`: life stage the chapter represents (leave "" if none).
+# - `playtime`: target play time.
+
+- num: "0"
+  label: Prologue
+  title: The Clinic
+  title_cn: 诊疗室
+  stage: ""
+  playtime: ""
+  hook: >-
+    Z is gone. The one person they trusted most — their therapist — offers you a way in:
+    a guided hypnosis into a world Z built for the people they loved.
+  status: ["Script draft"]
+
+- num: "1"
+  label: Chapter 1
+  title: Bridge to the Afterlife
+  title_cn: 往生桥
+  stage: ""
+  playtime: "~20 min"
+  hook: >-
+    Through mist and a field of red spider lilies, a lantern-bearer leads you to a rope bridge.
+    On the far side, someone you know comes apart into light.
+  art: /assets/img/ch1-bridge-to-the-afterlife-960.jpg
+  art_full: /assets/img/ch1-bridge-to-the-afterlife.jpg
+  status: ["Concept art", "Theme music", "Script draft"]
+
+- num: "2"
+  label: Chapter 2
+  title: Sea in a Palm
+  title_cn: 掌中海
+  stage: "Childhood · 0–12"
+  playtime: "~30 min"
+  hook: >-
+    A small boat drifts on an endless sea, free to go anywhere — or so it seems.
+    A great hand has been steering all along.
+  status: ["Script draft"]
+
+- num: "3"
+  label: Chapter 3
+  title: Silkworm in a Bottle
+  title_cn: 瓶中蚕
+  stage: "Adolescence · 12–18"
+  playtime: "~30 min"
+  hook: >-
+    A traveller in a white robe, a city of white domes on a cliff, cocoons along the roadside —
+    and the long, uncertain work of becoming.
+  status: ["Script draft"]
+
+- num: "4"
+  label: Chapter 4
+  title: Temple in a Teapot
+  title_cn: 壶中寺
+  stage: "Young adulthood · 18–30"
+  playtime: "~50 min"
+  hook: >-
+    A golden temple at the top of a thousand steps. Knowledge, ambition, belonging —
+    and what it costs to be let through the door.
+  status: ["Outline"]
+
+- num: "5"
+  label: Chapter 5
+  title: House in a Box
+  title_cn: 盒中屋
+  stage: "Midlife · 30–50"
+  playtime: "~30 min"
+  hook: >-
+    A house in a nutshell: fields, a courtyard stage, masked strangers,
+    and the chains people agree to wear.
+  status: ["Outline"]
+
+- num: "6"
+  label: Chapter 6
+  title: Scenery in a Bonsai
+  title_cn: 盆中景
+  stage: "Later life · 50–80"
+  playtime: "~15 min"
+  hook: >-
+    Open grassland at last, and the whole journey in miniature.
+    A meteor at dusk. An aurora. Wildfire by night.
+  status: ["Outline"]
+
+- num: "7"
+  label: Chapter 7
+  title: Rebirth in the Afterlife
+  title_cn: 复往生
+  stage: ""
+  playtime: "~15 min"
+  hook: >-
+    Back to the bridge. What waits on the other side depends on
+    the Life Scroll you carried there.
+  status: ["Outline"]

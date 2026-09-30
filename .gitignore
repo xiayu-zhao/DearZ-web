@@ -1,0 +1,22 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+Gemfile.lock
+
+# Private source material — NOT published.
+# The repo is public, so the full script, idea catalog and raw media stay local.
+# Web-ready copies of anything you want to show go in /assets instead.
+images/
+soundtrack/
+devLog_video/
+Dear Z - Ideas_CN_catalog.md
+Script_Demo.md
+VisionCanvas.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini

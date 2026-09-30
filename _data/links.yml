@@ -1,0 +1,14 @@
+# Footer / social links.
+# Leave `url` empty and the link shows as "soon" (not clickable).
+- title: Steam wishlist
+  url: ""
+- title: itch.io
+  url: ""
+- title: Bilibili
+  url: ""
+- title: X / Bluesky
+  url: ""
+- title: Press kit
+  url: ""
+- title: Contact
+  url: ""   # e.g. "mailto:hello@example.com"

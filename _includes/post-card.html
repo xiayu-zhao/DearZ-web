@@ -1,0 +1,16 @@
+{%- assign p = include.post -%}
+<a class="log-card" href="{{ p.url | relative_url }}">
+  <div class="log-thumb">
+    {%- if p.image and p.image != '/assets/img/og-card.jpg' -%}
+      <img src="{{ p.image | relative_url }}" alt="" loading="lazy">
+    {%- else -%}
+      <div class="thumb-ph" aria-hidden="true"><span>Z.</span></div>
+    {%- endif -%}
+    {%- if p.video %}<span class="play-badge" aria-label="Has video">▶</span>{% endif -%}
+  </div>
+  <div class="log-body">
+    <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time>
+    <h3>{{ p.title }}</h3>
+    {%- if p.description %}<p>{{ p.description }}</p>{% endif -%}
+  </div>
+</a>

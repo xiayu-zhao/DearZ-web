@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  {% include spectrum.html %}
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="{{ '/' | relative_url }}">Dear Z<span class="brand-dot">.</span></a>
+      <p>{{ site.tagline }}</p>
+    </div>
+    <ul class="footer-links">
+      {%- for link in site.data.links -%}
+        <li>
+          {%- if link.url and link.url != "" -%}
+            <a href="{{ link.url }}" rel="noopener">{{ link.title }}</a>
+          {%- else -%}
+            <span class="is-soon">{{ link.title }} <em>soon</em></span>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+      <li><a href="{{ '/devlog/feed.xml' | relative_url }}">RSS</a></li>
+    </ul>
+  </div>
+  <div class="wrap footer-meta">
+    <span>© {{ site.time | date: '%Y' }} {{ site.author }}. Made with Unity 6 · In development.</span>
+    <a href="#main" class="to-top">Back to top ↑</a>
+  </div>
+</footer>

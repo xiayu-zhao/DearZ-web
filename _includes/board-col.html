@@ -1,0 +1,11 @@
+<div class="board-col board-{{ include.status }}">
+  <h3><span class="dot dot-{{ include.status }}"></span> {{ include.label }} <span class="count">{{ include.items.size }}</span></h3>
+  <ul>
+    {%- for it in include.items -%}
+    <li>
+      {%- if it.log -%}<a href="{{ it.log | relative_url }}">{{ it.name }}</a>{%- else -%}<span>{{ it.name }}</span>{%- endif -%}
+      <small>{{ it.area }}</small>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>

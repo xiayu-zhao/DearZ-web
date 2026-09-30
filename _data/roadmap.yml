@@ -1,0 +1,86 @@
+# Development progress board.
+# status: done | doing | planned   — the progress bar is calculated from these.
+# `log` (optional) links an item to the devlog post where it happened.
+
+- name: Unity 6 project setup
+  area: Foundation
+  status: done
+  log: /devlog/2026/01/13/day-one/
+
+- name: Movement — walk, run, jump, double jump
+  area: Player
+  status: done
+  log: /devlog/2026/01/15/attack-double-jump-first-debris/
+
+- name: Attack
+  area: Player
+  status: done
+  log: /devlog/2026/01/15/attack-double-jump-first-debris/
+
+- name: Debris collectibles + UI
+  area: Systems
+  status: done
+  log: /devlog/2026/01/15/attack-double-jump-first-debris/
+
+- name: Totem → Anchor → Window prototype
+  area: Systems
+  status: done
+  log: /devlog/2026/01/16/debris-totem-window/
+
+- name: Dialogue system
+  area: Narrative
+  status: done
+  log: /devlog/2026/01/21/dialogue-and-two-kinds-of-health/
+
+- name: Physical & Mental health
+  area: Player
+  status: done
+  log: /devlog/2026/01/21/dialogue-and-two-kinds-of-health/
+
+- name: Enemy AI & basic combat
+  area: Combat
+  status: done
+  log: /devlog/2026/01/24/enemy-ai-and-healing-debris/
+
+- name: Healing debris (green)
+  area: Systems
+  status: done
+  log: /devlog/2026/01/24/enemy-ai-and-healing-debris/
+
+- name: Cinematic / fixed camera
+  area: Camera
+  status: doing
+  log: /devlog/2026/01/24/enemy-ai-and-healing-debris/
+
+- name: Chapter 1 art direction & music
+  area: Art & Audio
+  status: doing
+  log: /devlog/2026/09/25/chapter-1-art-and-theme/
+
+- name: Script — Prologue to Chapter 3
+  area: Narrative
+  status: doing
+
+- name: Respawn & checkpoints ("BornPoint")
+  area: Systems
+  status: planned
+
+- name: Scene transitions & level loading
+  area: Systems
+  status: planned
+
+- name: Weapon system
+  area: Combat
+  status: planned
+
+- name: NPC management
+  area: Narrative
+  status: planned
+
+- name: Life Scroll & seals
+  area: Systems
+  status: planned
+
+- name: Chapter 1 vertical slice
+  area: Milestone
+  status: planned

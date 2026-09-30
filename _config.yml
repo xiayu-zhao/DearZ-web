@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------
+#  Dear Z. — site settings
+#  GitHub Pages rebuilds the site automatically on every push.
+# ---------------------------------------------------------------
+
+title: "Dear Z."
+tagline: "Can you help Z collect their memory debris and rebuild the world they made?"
+description: >-
+  Dear Z. is an indie 2.5D narrative puzzle-platformer in development with Unity 6 —
+  a journey through a shattered storybook world, one fragment of memory at a time.
+lang: en
+
+# If the repo is named <user>.github.io, set baseurl to "".
+# If the repo has any other name (e.g. DearZ-web), baseurl must be "/<repo-name>".
+url: "https://summerzhao618.github.io"
+baseurl: "/DearZ-web"
+
+# Shown in the footer. Change to your name or studio name.
+author: "The Dear Z. team"
+
+# Default social-share image (used when a page doesn't set its own `image:`)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og-card.jpg
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+permalink: /devlog/:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: devlog/feed.xml
+
+# Everything below is kept OUT of the published site.
+# (Your raw design docs / source media also live in .gitignore so they never get pushed.)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - images
+  - soundtrack
+  - devLog_video
+  - "Dear Z - Ideas_CN_catalog.md"
+  - Script_Demo.md
+  - VisionCanvas.md

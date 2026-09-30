@@ -1,0 +1,13 @@
+# Top navigation. `url` is relative to the site root.
+- title: World
+  url: /#world
+- title: Chapters
+  url: /#chapters
+- title: Gallery
+  url: /#gallery
+- title: Music
+  url: /#music
+- title: Progress
+  url: /#progress
+- title: Devlog
+  url: /devlog/

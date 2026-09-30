@@ -1,0 +1,34 @@
+---
+layout: default
+body_class: page post-page
+---
+<article class="post">
+  <header class="post-head wrap-narrow">
+    <a class="back-link" href="{{ '/devlog/' | relative_url }}">← All devlog entries</a>
+    <p class="eyebrow">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {%- for tag in page.tags %} · <span>{{ tag }}</span>{% endfor -%}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.description %}<p class="lede">{{ page.description }}</p>{% endif -%}
+  </header>
+
+  {%- if page.video -%}
+    <div class="wrap-media">{% include video.html src=page.video poster=page.image caption=page.video_caption %}</div>
+  {%- elsif page.image and page.image != '/assets/img/og-card.jpg' -%}
+    <div class="wrap-media"><figure class="post-cover"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}"></figure></div>
+  {%- endif -%}
+
+  <div class="prose wrap-narrow">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav wrap-narrow" aria-label="More entries">
+    {%- if page.previous -%}
+      <a class="prev" href="{{ page.previous.url | relative_url }}"><span>← Older</span>{{ page.previous.title }}</a>
+    {%- else -%}<span></span>{%- endif -%}
+    {%- if page.next -%}
+      <a class="next" href="{{ page.next.url | relative_url }}"><span>Newer →</span>{{ page.next.title }}</a>
+    {%- endif -%}
+  </nav>
+</article>

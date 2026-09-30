@@ -1,0 +1,14 @@
+# Soundtrack. Put MP3s in /assets/audio and square cover images in /assets/img.
+- title: Bridge to the Afterlife
+  title_cn: 往生桥
+  chapter: Chapter 1 · Main theme
+  src: /assets/audio/ch1-bridge-to-the-afterlife.mp3
+  cover: /assets/img/cover-ch1-theme.jpg
+  duration: "1:17"
+
+- title: Bridge to the Afterlife (Remix)
+  title_cn: 往生桥 · Remix
+  chapter: Chapter 1 · Extended remix
+  src: /assets/audio/ch1-bridge-to-the-afterlife-remix.mp3
+  cover: /assets/img/cover-ch1-remix.jpg
+  duration: "3:35"
