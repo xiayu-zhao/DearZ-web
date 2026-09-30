@@ -50,7 +50,9 @@
   hook: >-
     A traveller in a white robe, a city of white domes on a cliff, cocoons along the roadside —
     and the long, uncertain work of becoming.
-  status: ["Script draft"]
+  art: /assets/img/ch3-silkworm-in-a-bottle-960.jpg
+  art_full: /assets/img/ch3-silkworm-in-a-bottle.jpg
+  status: ["Concept art", "Script draft"]
 
 - num: "4"
   label: Chapter 4

@@ -162,7 +162,7 @@ body_class: home
             <span class="g-cap"><strong>{{ item.title }}</strong><span>In progress</span></span>
           </div>
         {%- else -%}
-          <a class="g-item{% if item.wide %} g-wide{% endif %}" href="{{ item.src | relative_url }}" data-lightbox data-caption="{{ item.title | escape }} · {{ item.title_cn }} — {{ item.caption | escape }}">
+          <a class="g-item{% if item.wide %} g-wide{% endif %}{% if item.side == 'right' %} g-right{% endif %}" href="{{ item.src | relative_url }}" data-lightbox data-caption="{{ item.title | escape }} · {{ item.title_cn }} — {{ item.caption | escape }}">
             <img src="{{ item.thumb | default: item.src | relative_url }}" alt="{{ item.title | escape }}: {{ item.caption | escape }}" loading="lazy">
             <span class="g-cap"><strong>{{ item.title }}</strong><span lang="zh-CN">{{ item.title_cn }}</span></span>
           </a>

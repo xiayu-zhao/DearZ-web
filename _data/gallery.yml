@@ -3,9 +3,9 @@
 # then add an entry here. Entries with `placeholder: true` show as "in progress" tiles —
 # replace them as real art arrives.
 #
-# Layout note (desktop, 3 columns): a `wide: true` tile takes 2×2 cells, others take 1.
-# Keep the total cell count a multiple of 3 so the grid has no gaps.
-# Current: wide(4) + 2 + wide(4) + 2 = 12 cells.
+# Layout (desktop, 3 columns): `wide: true` = a 2×2 tile, others = 1×1.
+# Add `side: right` to a wide tile to put it on the right, so big tiles can zig-zag.
+# Pattern that fills the grid with no gaps: one wide tile followed by two small ones.
 
 - title: Bridge to the Afterlife
   title_cn: 往生桥
@@ -20,8 +20,8 @@
   src: /assets/img/concept-temple-lantern.jpg
   thumb: /assets/img/concept-temple-lantern-960.jpg
 
-- title: Silkworm in a Bottle
-  title_cn: 瓶中蚕
+- title: Temple in a Teapot
+  title_cn: 壶中寺
   placeholder: true
 
 - title: Sea in a Palm
@@ -30,9 +30,25 @@
   src: /assets/img/ch2-sea-in-a-palm.jpg
   thumb: /assets/img/ch2-sea-in-a-palm-960.jpg
   wide: true
+  side: right
 
-- title: Temple in a Teapot
-  title_cn: 壶中寺
+- title: House in a Box
+  title_cn: 盒中屋
+  placeholder: true
+
+- title: Scenery in a Bonsai
+  title_cn: 盆中景
+  placeholder: true
+
+- title: Silkworm in a Bottle
+  title_cn: 瓶中蚕
+  caption: Chapter 3 key art — a tunnel of woven silk and hanging cocoons opens onto a desert, where two robed riders cross toward a white city floating beyond a wall of glass.
+  src: /assets/img/ch3-silkworm-in-a-bottle.jpg
+  thumb: /assets/img/ch3-silkworm-in-a-bottle-960.jpg
+  wide: true
+
+- title: Rebirth in the Afterlife
+  title_cn: 复往生
   placeholder: true
 
 - title: Character sketches

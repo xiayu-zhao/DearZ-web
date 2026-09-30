@@ -57,6 +57,11 @@
   status: done
   log: /devlog/2026/09/30/chapter-2-sea-in-a-palm/
 
+- name: Chapter 3 key art
+  area: Art & Audio
+  status: done
+  log: /devlog/2026/09/30/chapter-3-silkworm-in-a-bottle/
+
 - name: Chapter 1 art direction & music
   area: Art & Audio
   status: doing
