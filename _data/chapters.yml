@@ -37,7 +37,9 @@
   hook: >-
     A small boat drifts on an endless sea, free to go anywhere — or so it seems.
     A great hand has been steering all along.
-  status: ["Script draft"]
+  art: /assets/img/ch2-sea-in-a-palm-960.jpg
+  art_full: /assets/img/ch2-sea-in-a-palm.jpg
+  status: ["Concept art", "Script draft"]
 
 - num: "3"
   label: Chapter 3

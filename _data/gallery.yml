@@ -2,6 +2,10 @@
 # To add art: drop a full-size image (~1600–2000px wide JPG) and a ~960px thumbnail into /assets/img,
 # then add an entry here. Entries with `placeholder: true` show as "in progress" tiles —
 # replace them as real art arrives.
+#
+# Layout note (desktop, 3 columns): a `wide: true` tile takes 2×2 cells, others take 1.
+# Keep the total cell count a multiple of 3 so the grid has no gaps.
+# Current: wide(4) + 2 + wide(4) + 2 = 12 cells.
 
 - title: Bridge to the Afterlife
   title_cn: 往生桥
@@ -16,13 +20,16 @@
   src: /assets/img/concept-temple-lantern.jpg
   thumb: /assets/img/concept-temple-lantern-960.jpg
 
-- title: Sea in a Palm
-  title_cn: 掌中海
-  placeholder: true
-
 - title: Silkworm in a Bottle
   title_cn: 瓶中蚕
   placeholder: true
+
+- title: Sea in a Palm
+  title_cn: 掌中海
+  caption: Chapter 2 key art — a child drifts past pairs of glowing doors, each offering one of two choices, while a hand of mist reaches over the sea.
+  src: /assets/img/ch2-sea-in-a-palm.jpg
+  thumb: /assets/img/ch2-sea-in-a-palm-960.jpg
+  wide: true
 
 - title: Temple in a Teapot
   title_cn: 壶中寺

@@ -52,6 +52,11 @@
   status: doing
   log: /devlog/2026/01/24/enemy-ai-and-healing-debris/
 
+- name: Chapter 2 key art
+  area: Art & Audio
+  status: done
+  log: /devlog/2026/09/30/chapter-2-sea-in-a-palm/
+
 - name: Chapter 1 art direction & music
   area: Art & Audio
   status: doing
