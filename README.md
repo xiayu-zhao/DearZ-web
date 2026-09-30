@@ -3,7 +3,7 @@
 Source for the *Dear Z.* game website, built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 Every push to `main` rebuilds the site automatically (takes ~1 minute).
 
-Live: https://summerzhao618.github.io/DearZ-web/
+Live: https://xiayu-zhao.github.io/DearZ-web/
 
 ## Where things live
 

@@ -12,7 +12,7 @@ lang: en
 
 # If the repo is named <user>.github.io, set baseurl to "".
 # If the repo has any other name (e.g. DearZ-web), baseurl must be "/<repo-name>".
-url: "https://summerzhao618.github.io"
+url: "https://xiayu-zhao.github.io"
 baseurl: "/DearZ-web"
 
 # Shown in the footer. Change to your name or studio name.
