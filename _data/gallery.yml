@@ -20,8 +20,8 @@
   src: /assets/img/concept-temple-lantern.jpg
   thumb: /assets/img/concept-temple-lantern-960.jpg
 
-- title: Temple in a Teapot
-  title_cn: 壶中寺
+- title: The Clinic
+  title_cn: 诊疗室
   placeholder: true
 
 - title: Sea in a Palm
@@ -49,6 +49,22 @@
 
 - title: Rebirth in the Afterlife
   title_cn: 复往生
+  placeholder: true
+
+- title: Dream within a dream
+  title_cn: 梦中梦
+  placeholder: true
+
+- title: Temple in a Teapot
+  title_cn: 壶中寺
+  caption: Chapter 4 key art — glowing travellers climb a thousand steps toward a golden hall, while a hand of mist waits outside the gate, all beneath a cracked porcelain sky.
+  src: /assets/img/ch4-temple-in-a-teapot.jpg
+  thumb: /assets/img/ch4-temple-in-a-teapot-960.jpg
+  wide: true
+  side: right
+
+- title: Debris & totems
+  title_cn: 图腾
   placeholder: true
 
 - title: Character sketches

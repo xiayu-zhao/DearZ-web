@@ -63,7 +63,9 @@
   hook: >-
     A golden temple at the top of a thousand steps. Knowledge, ambition, belonging —
     and what it costs to be let through the door.
-  status: ["Outline"]
+  art: /assets/img/ch4-temple-in-a-teapot-960.jpg
+  art_full: /assets/img/ch4-temple-in-a-teapot.jpg
+  status: ["Concept art", "Outline"]
 
 - num: "5"
   label: Chapter 5
