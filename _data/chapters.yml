@@ -63,8 +63,8 @@
   hook: >-
     A golden temple at the top of a thousand steps. Knowledge, ambition, belonging —
     and what it costs to be let through the door.
-  art: /assets/img/ch4-temple-in-a-teapot-960.jpg
-  art_full: /assets/img/ch4-temple-in-a-teapot.jpg
+  art: /assets/img/ch4-temple-in-a-teapot-v2-960.jpg
+  art_full: /assets/img/ch4-temple-in-a-teapot-v2.jpg
   status: ["Concept art", "Outline"]
 
 - num: "5"
@@ -76,7 +76,9 @@
   hook: >-
     A house in a nutshell: fields, a courtyard stage, masked strangers,
     and the chains people agree to wear.
-  status: ["Outline"]
+  art: /assets/img/ch5-house-in-a-box-960.jpg
+  art_full: /assets/img/ch5-house-in-a-box.jpg
+  status: ["Concept art", "Outline"]
 
 - num: "6"
   label: Chapter 6

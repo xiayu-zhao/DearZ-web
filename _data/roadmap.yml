@@ -67,6 +67,11 @@
   status: done
   log: /devlog/2026/10/01/chapter-4-temple-in-a-teapot/
 
+- name: Chapter 5 key art
+  area: Art & Audio
+  status: done
+  log: /devlog/2026/10/01/chapter-5-house-in-a-box/
+
 - name: Chapter 1 art direction & music
   area: Art & Audio
   status: doing
