@@ -33,15 +33,17 @@
   src: /assets/img/ch5-house-in-a-box.jpg
   thumb: /assets/img/ch5-house-in-a-box-960.jpg
 
+- title: Scenery in a Bonsai
+  title_cn: 盆中景
+  caption: Chapter 6 key art — an old traveller walks through a sea of grass among nameless graves and discarded masks, the whole journey in miniature behind them, wildfire on the horizon.
+  src: /assets/img/ch6-scenery-in-a-bonsai.jpg
+  thumb: /assets/img/ch6-scenery-in-a-bonsai-960.jpg
+
 - title: The Lantern Terrace
   title_cn: 灯台
   caption: Early mood concept — a temple terrace at dusk and a lantern holding a fragment of memory.
   src: /assets/img/concept-temple-lantern.jpg
   thumb: /assets/img/concept-temple-lantern-960.jpg
-
-- title: Scenery in a Bonsai
-  title_cn: 盆中景
-  placeholder: true
 
 - title: Rebirth in the Afterlife
   title_cn: 复往生

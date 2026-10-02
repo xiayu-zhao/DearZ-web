@@ -72,6 +72,11 @@
   status: done
   log: /devlog/2026/10/01/chapter-5-house-in-a-box/
 
+- name: Chapter 6 key art
+  area: Art & Audio
+  status: done
+  log: /devlog/2026/10/02/chapter-6-scenery-in-a-bonsai/
+
 - name: Chapter 1 art direction & music
   area: Art & Audio
   status: doing

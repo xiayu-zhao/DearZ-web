@@ -89,7 +89,9 @@
   hook: >-
     Open grassland at last, and the whole journey in miniature.
     A meteor at dusk. An aurora. Wildfire by night.
-  status: ["Outline"]
+  art: /assets/img/ch6-scenery-in-a-bonsai-960.jpg
+  art_full: /assets/img/ch6-scenery-in-a-bonsai.jpg
+  status: ["Concept art", "Outline"]
 
 - num: "7"
   label: Chapter 7
