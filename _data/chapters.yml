@@ -102,4 +102,6 @@
   hook: >-
     Back to the bridge. What waits on the other side depends on
     the Life Scroll you carried there.
-  status: ["Outline"]
+  art: /assets/img/ch7-rebirth-in-the-afterlife-960.jpg
+  art_full: /assets/img/ch7-rebirth-in-the-afterlife.jpg
+  status: ["Concept art", "Outline"]
